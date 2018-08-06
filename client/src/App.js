@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Navbar from './components/layouts/Navbar';
 import Footer from './components/layouts/Footer';
+import Landing from './components/layouts/Landing';
 
 import './App.css';
 
@@ -10,7 +11,7 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar />
-        <h1>My React App</h1>
+          <Landing />
         <Footer />
       </div>
     );
